@@ -75,7 +75,7 @@ const ResetPassword = () => {
         setSuccess("Password reset successfully! Redirecting...");
         setTimeout(() => {
           navigate(
-            userData.role === "farmer" ? "/farmer-dashboard" : "/buyer-home"
+            userData.role === "farmer" ? "/farmer" : "/buyer"
           );
         }, 1500);
       } else {
