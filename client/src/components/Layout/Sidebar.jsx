@@ -39,9 +39,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarLink to="/farmer/orders" onClick={toggle}>
         Orders
       </SidebarLink>
-      <SidebarLink to="/farmer/analytics" onClick={toggle}>
-        Analytics
-      </SidebarLink>
+   
     </SidebarContainer>
   );
 };
